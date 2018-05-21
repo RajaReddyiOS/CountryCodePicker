@@ -14,6 +14,7 @@
 		18041BBB20B3363D00676DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18041BB920B3363D00676DFD /* LaunchScreen.storyboard */; };
 		18041BC620B3363D00676DFD /* CountryCodePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18041BC520B3363D00676DFD /* CountryCodePickerTests.swift */; };
 		18041BD120B3363E00676DFD /* CountryCodePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18041BD020B3363E00676DFD /* CountryCodePickerUITests.swift */; };
+		18041BEF20B34A3300676DFD /* Source in Resources */ = {isa = PBXBuildFile; fileRef = 18041BEE20B34A3300676DFD /* Source */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		18041BCC20B3363E00676DFD /* CountryCodePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountryCodePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18041BD020B3363E00676DFD /* CountryCodePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodePickerUITests.swift; sourceTree = "<group>"; };
 		18041BD220B3363E00676DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18041BEE20B34A3300676DFD /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Source; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		18041BAF20B3363B00676DFD /* CountryCodePicker */ = {
 			isa = PBXGroup;
 			children = (
+				18041BEE20B34A3300676DFD /* Source */,
 				18041BB020B3363B00676DFD /* AppDelegate.swift */,
 				18041BB220B3363B00676DFD /* ViewController.swift */,
 				18041BB420B3363B00676DFD /* Main.storyboard */,
@@ -232,6 +235,7 @@
 				18041BBB20B3363D00676DFD /* LaunchScreen.storyboard in Resources */,
 				18041BB820B3363D00676DFD /* Assets.xcassets in Resources */,
 				18041BB620B3363B00676DFD /* Main.storyboard in Resources */,
+				18041BEF20B34A3300676DFD /* Source in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
