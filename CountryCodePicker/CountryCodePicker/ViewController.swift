@@ -13,8 +13,7 @@ class ViewController: UIViewController, CountryCodesDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+
     }
 
     @IBAction func pickCountryCodeBthHandler(_ sender: Any) {
@@ -22,7 +21,6 @@ class ViewController: UIViewController, CountryCodesDelegate {
         vc.delegate = self
         self.present(vc, animated: true, completion: nil);
     }
-    
     
     func didSelectCountryCode(_ countryName: String, dialingCode: String) {
         self.statusLbl.text = dialingCode+"\n"+countryName
